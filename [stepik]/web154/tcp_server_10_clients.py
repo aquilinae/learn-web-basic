@@ -8,6 +8,8 @@
 Протокол передачи такой же как в прошлой задаче.
 '''
 
+# UPD. Решение плохое.
+
 import socket
 import os
 
@@ -23,3 +25,13 @@ if pid == 0:
 		data = conn.recv(1024)
 		conn.send(data)		
 		conn.close()
+		
+# Полезная информация по решению
+'''
+https://youtu.be/wV2WavaPNrU?t=44m11s
+https://docs.python.org/3/library/asyncore.html#asyncore-example-basic-echo-server
+https://xakep.ru/2017/01/11/python-3-asyncio/
+http://django-tutorial.blogspot.ru/2012/12/python_11.html
+http://ideafix.name/wp-content/uploads/2012/07/Python-11.pdf
+'''
+
