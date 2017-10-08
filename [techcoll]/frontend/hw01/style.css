@@ -28,6 +28,15 @@ nav a {
 	text-decoration: none;
 }
 
+ul {
+	box-sizing: border-box;
+}
+
+li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
 article {
 	background: #F6F5F1;
 	margin: 75px 50px 75px 100px;
