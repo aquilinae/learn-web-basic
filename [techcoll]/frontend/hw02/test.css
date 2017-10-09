@@ -1,0 +1,70 @@
+body {
+  background: #DBE2EC;
+}
+
+#containter {
+  background: #CCEDDC;
+  border: 1px solid black;
+  width: 300px;
+  height: 600px;
+  padding: 0;
+  margin: 0 50px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#column-1 {
+  background: #FFE2EC;
+  width: 300px;
+  height: 550px;
+  padding: 30px;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: justify;
+  font-size: 1.2em;
+}
+
+#column-2 {
+  background: #CCC2EC;
+  width: 300px;
+  height: 550px;
+  padding: 30px;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: justify;
+  font-size: 1.2em;
+}
+
+#column-3 {
+  background: #AAC2EB;
+  width: 300px;
+  height: 550px;
+  padding: 30px;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: justify;
+  font-size: 1.2em;
+  overflow: auto;
+}
+
+#menu {
+  background: #FFFFFF;
+  width: 300px;
+  height: 50px;
+  padding: 10px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+#close {
+  float: left;
+  width: 80px;
+  height: 30px;
+}
+
+#comment {
+  float: right;
+  width: 80px;
+  height: 30px;
+}

@@ -2,19 +2,26 @@ body {
   background: #DBE2EC
 }
 
-.column {
+.containter {
   height: 650px;
+  width: 350px;
+  box-sizing: border-box;
+}
+
+.column {
+  height: 600px;
   width: 350px;
   border: 1px solid black;
   display: inline-block;
   vertical-align: middle;
-  margin: 50px;
+  margin: 0 50px 0 50px;
   padding: 30px;
   box-sizing: border-box;
   overflow: auto;
 }
 
 .column-1 {
+
 }
 
 .column-2 {
@@ -24,4 +31,19 @@ body {
 
 .column-3 {
   background: #FFFFFF;
+}
+
+.footer {
+  background: #FFFFFF;
+  height: 50px;
+  width: 350px;
+}
+
+#close {
+  float: left;
+
+}
+
+#comment {
+  float: right;
 }
