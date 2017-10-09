@@ -2,7 +2,7 @@ body {
   background: #DBE2EC;
 }
 
-#containter {
+.containter {
   background: #CCEDDC;
   border: 1px solid black;
   width: 300px;
@@ -13,7 +13,7 @@ body {
   vertical-align: middle;
 }
 
-#column-1 {
+.column {
   background: #FFE2EC;
   width: 300px;
   height: 550px;
@@ -21,33 +21,11 @@ body {
   margin: 0;
   box-sizing: border-box;
   text-align: justify;
-  font-size: 1.2em;
-}
-
-#column-2 {
-  background: #CCC2EC;
-  width: 300px;
-  height: 550px;
-  padding: 30px;
-  margin: 0;
-  box-sizing: border-box;
-  text-align: justify;
-  font-size: 1.2em;
-}
-
-#column-3 {
-  background: #AAC2EB;
-  width: 300px;
-  height: 550px;
-  padding: 30px;
-  margin: 0;
-  box-sizing: border-box;
-  text-align: justify;
-  font-size: 1.2em;
+  font-size: 1em;
   overflow: auto;
 }
 
-#menu {
+footer {
   background: #FFFFFF;
   width: 300px;
   height: 50px;
@@ -56,14 +34,13 @@ body {
   box-sizing: border-box;
 }
 
-
-#close {
+.close {
   float: left;
   width: 80px;
   height: 30px;
 }
 
-#comment {
+.comment {
   float: right;
   width: 80px;
   height: 30px;
