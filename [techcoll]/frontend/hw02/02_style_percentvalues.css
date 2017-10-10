@@ -60,14 +60,65 @@ footer {
   float: right;
 }
 
-@media screen and (max-width: 768px) { /* планшет */
-  body {
-    background-color: #000000;
+@media screen and (max-width: 1024px) { /* планшет */
+  .wrapper {
+    background-color: #0000FF;
+    box-sizing: border-box;
+
+    max-width: 1024px;
+    min-width: 480px;
+    margin: 0 auto;
+  }
+
+  .containter {
+    background-color: #CCEDDC;
+    box-sizing: border-box;
+
+    vertical-align: top;
+    height: 600px;
+    margin: 2%;
+    padding: 0;
+  }
+
+  .containter:nth-child(1) {
+    width: 30%;
+    margin-right: 10%
+  }
+
+  .containter:nth-child(2) {
+    width: 30%;
+  }
+
+  .containter:nth-child(3) {
+    width: 30%;
+    display: block;
+  }
+
+  .column {
+    background-color: #FFE2EC;
+
+    box-sizing: border-box;
+    height: 90%;
+    padding: 10%;
+    overflow: auto;
+    text-align: justify;
+  }
+
+  footer {
+    background: #FFFFFF;;
+    box-sizing: border-box;
+    height: 10%;
+    padding: 5%;
+  }
+
+  .close {
+    float: left;
+  }
+
+  .comment {
+    float: right;
   }
 }
 
 @media screen and (max-width: 480px) { /* смартфон */
-  body {
-    background-color: #FF0000;
-  }
 }
