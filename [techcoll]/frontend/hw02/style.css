@@ -52,9 +52,10 @@ body {
   margin-left: 2.5%;
   width: 25%;
   height: 5%;
-  padding: 2%;
   background-color: #FFFFFF;
   font-size: 0.6em;
+  text-align: center;
+  padding: 2.5%;
   color: #2C3137;
   font-family: "Simplifica", sans-serif;
 }
@@ -75,6 +76,10 @@ body {
   font-size: 1.2em;
   text-align: justify;
   overflow: auto;
+}
+
+.content:nth-child(2)::first-letter {
+
 }
 
 .menu {
