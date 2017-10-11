@@ -77,11 +77,13 @@ body {
   text-align: justify;
   overflow: auto;
 }
-
-.content:nth-child(2)::first-letter {
-
+/*
+.content:nth-of-type(2) {
+  background-color: #F8F9FA;
+  color: #626A73;
+  font-family: "Bariol", serif;
 }
-
+*/
 .menu {
   height: 10%;
   background-color: #FFFFFF;
@@ -91,6 +93,18 @@ body {
   float: left;
   margin: 5%;
   width: 25%;
+
+  text-decoration:none;
+  text-align:center;
+  border:none;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-weight:bold;
+  color:#000000;
+  background-color: #FFFFFF;
+}
+
+.close:hover {
+  background-color: #DDDDDD;
 }
 
 .comment {
