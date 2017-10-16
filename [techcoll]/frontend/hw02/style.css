@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+}
+
+body {
+  background-color: #DBE2EC;
+  width: 100%;
+}
+
+.wrapper {
+  /* DEBUG цвет для наглядности */
+  background-color: #FFFF00;
+
+  width: 70%;
+  height: 60%;
+
+  /* Центрирование по вертикали и горизонтали */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.space {
+  width: calc(17.6%/2);
+  height: 100%;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+}
+
+.space:nth-child(1) {
+  /* DEBUG цвет для наглядности */
+  background-color: #929487;
+}
+
+.space:nth-child(1) {
+  /* DEBUG цвет для наглядности */
+  background-color: #494A43;
+}
+
+.column {
+ width: calc(82.4%/3);
+ height: 100%;
+ position: relative;
+ display: inline-block;
+ vertical-align: top;
+ float: left;
+}
+
+.column:nth-child(1) {
+  /* DEBUG цвет для наглядности */
+  background-color: #DB4545;
+}
+
+.column:nth-child(3) {
+  /* DEBUG цвет для наглядности */
+  background-color: #7FBFFF;
+}
+
+.menu {
+  /* DEBUG цвет для наглядности */
+  background-color: #FFFFFF;
+
+  height: 10%;
+}
+
+.content {
+  /* DEBUG цвет для наглядности */
+  background-color: #65CCCC;
+
+  height: 90%;
+}
+
+.column:nth-child(3) .content {
+  /* DEBUG цвет для наглядности */
+  background-color: #F6F7F8;
+
+  height: 90%;
+  padding: 10%;
+  text-align: justify;
+}
+
+.column:nth-child(3) .content::first-letter {
+  font-size: 4em;
+  float: left;
+  margin-right: 3%;
+}
+
+.column:nth-child(5) {
+  /* DEBUG цвет для наглядности */
+  background-color: #6B00C7;
+}
+
+.column:nth-child(5) .content {
+  /* DEBUG цвет для наглядности */
+  background-color: #6B00C7;
+}
+
+.line {
+  /* DEBUG цвет для наглядности */
+  background-color: #6B0E43;
+
+  width: calc(88%/4);
+  position: relative;
+}
+
+.avatar {
+  /* DEBUG цвет для наглядности */
+  background-color: #CDF123;
+
+  width: 20%;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+}
+
+.comment {
+  /* DEBUG цвет для наглядности */
+  background-color: #123CDF;
+
+  width: 80%;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+}
