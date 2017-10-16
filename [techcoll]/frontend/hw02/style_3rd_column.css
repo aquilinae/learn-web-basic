@@ -47,9 +47,7 @@ body {
   /* DEBUG цвет для наглядности */
   background-color: #FFFFAB;
 
-  font-size: 1em;
-  font-family: sans-serif;
-  text-align: center;
+
 
   display: inline-block;
   float: left;
@@ -63,12 +61,20 @@ body {
   transform: translateY(100%);*/
 }
 
+.comment-counter-content {
+  font-size: 1em;
+  font-family: sans-serif;
+  text-align: center;
+}
+
 .button-close {
   /* DEBUG цвет для наглядности */
   background-color: #65CAAA;
 
+  position: relative;
+
   display: inline-block;
-  float: right;
+  float: left;
   width: 20%;
   height: 100%;
 }
