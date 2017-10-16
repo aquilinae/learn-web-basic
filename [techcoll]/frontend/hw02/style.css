@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+
+  /* DEBUG цвет для наглядности*/
+  background-color: #FFFFFF;
+}
+
+body {
+  width: 100%;
+
+  /* DEBUG цвет для наглядности*/
+  background-color: #000000;
+}
+
+.wrapper {
+  width: 80%;
+  height: 60%;
+
+  /* Центрирование по вертикали и горизонтали */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  /* DEBUG цвет для наглядности*/
+  background-color: #FFFF00;
+}
+
+/*
+.space {
+  width: calc((100%/3)/2)
+}
+
+.space:nth-child(1) {
+  background-color: #929487;
+}
+
+.space:nth-child(1) {
+  background-color: #494A43;
+}
+*/
+
+.column {
+ width: calc(100%/3);
+ height: 100%;
+ position: relative;
+ display: inline-block;
+ vertical-align: top;
+ float: left;
+}
+
+.column:nth-child(1) {
+  /* DEBUG цвет для наглядности*/
+  background-color: #DB4545;
+}
+
+.column:nth-child(2) {
+  /* DEBUG цвет для наглядности*/
+  background-color: #7FBFFF;
+}
+
+.column:nth-child(3) {
+  /* DEBUG цвет для наглядности*/
+  background-color: #6B00C7;
+}
