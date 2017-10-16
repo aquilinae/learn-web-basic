@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  /* DEBUG цвет для наглядности */
+  background-color: #FFFFFF;
+
+  width: 100%;
+}
+
+body {
+  /* DEBUG цвет для наглядности */
+  background-color: #000000;
+
+  width: 100%;
+}
+
+.wrapper {
+  /* DEBUG цвет для наглядности */
+  background-color: #FFFF00;
+
+  width: 20%;
+  height: 60%;
+
+  /* Центрирование по вертикали и горизонтали */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.column {
+ width: 100%;
+ height: 100%;
+ position: relative;
+ display: inline-block;
+ vertical-align: top;
+ float: left;
+}
+
+.menu {
+  /* DEBUG цвет для наглядности */
+  background-color: #EAC1C1;
+
+  height: 10%;
+}
+
+.content {
+  /* DEBUG цвет для наглядности */
+  background-color: #65CCCC;
+
+  height: 90%;
+}
+
+.line {
+  /* DEBUG цвет для наглядности */
+  background-color: #CCC65C;
+
+  height: calc(100%/4);
+  width: 100%;
+}
+
+.avatar {
+  /* DEBUG цвет для наглядности */
+  background-color: #FFAA5C;
+
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+  width: 20%;
+  height: 100%;
+}
+
+.comment {
+  /* DEBUG цвет для наглядности */
+  background-color: #BFFC5C;
+
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+  width: 80%;
+  height: 100%;
+}
