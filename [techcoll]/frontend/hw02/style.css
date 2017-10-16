@@ -70,6 +70,36 @@ body {
   background-color: #7FBFFF;
 }
 
+.content {
+  /* DEBUG цвет для наглядности*/
+  background-color: #65CCCC;
+
+  height: 90%;
+}
+
+#content01-img {
+  /* DEBUG цвет для наглядности
+  background-color: #FFFCCC;
+
+  height: 90%;*/
+}
+
+#content02-text {
+  /* DEBUG цвет для наглядности*/
+  background-color: #FFFCCC;
+
+  height: 90%;
+  padding: 10%;
+  text-align: justify;
+}
+
+.menu {
+  /* DEBUG цвет для наглядности*/
+  background-color: #EAC1C1;
+
+  height: 10%;
+}
+
 .column:nth-child(5) {
   /* DEBUG цвет для наглядности*/
   background-color: #6B00C7;
