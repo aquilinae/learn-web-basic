@@ -43,6 +43,46 @@ body {
   height: 10%;
 }
 
+.comment-counter {
+  /* DEBUG цвет для наглядности */
+  background-color: #FFFFAB;
+
+  font-size: 1em;
+  font-family: sans-serif;
+  text-align: center;
+
+  display: inline-block;
+  float: left;
+  width: 80%;
+  height: 100%;
+
+  /* Что здесь происходит? */
+  /*display: inline-block;
+  position: absolute;
+  left: 35%;
+  transform: translateY(100%);*/
+}
+
+.button-close {
+  /* DEBUG цвет для наглядности */
+  background-color: #65CAAA;
+
+  display: inline-block;
+  float: right;
+  width: 20%;
+  height: 100%;
+}
+
+.button-close img {
+  width: 50%;
+
+  /* Центровка картинки, подозреваю, что можно проще и изящнее */
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
 .content {
   /* DEBUG цвет для наглядности */
   background-color: #65CCCC;
