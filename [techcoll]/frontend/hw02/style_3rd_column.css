@@ -75,6 +75,17 @@ body {
   height: 100%;
 }
 
+.avatar img {
+  border-radius: 30px;
+  width: 80%;
+
+  /* Центровка картинки, подозреваю, что можно проще и изящнее */
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
 .comment {
   /* DEBUG цвет для наглядности */
   background-color: #BFFC5C;
