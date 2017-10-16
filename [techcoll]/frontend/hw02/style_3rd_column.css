@@ -5,16 +5,11 @@
 }
 
 html {
-  /* DEBUG цвет для наглядности */
-  background-color: #FFFFFF;
-
   width: 100%;
 }
 
 body {
-  /* DEBUG цвет для наглядности */
-  background-color: #000000;
-
+  background-color: #DBE2EC;
   width: 100%;
 }
 
@@ -43,7 +38,7 @@ body {
 
 .menu {
   /* DEBUG цвет для наглядности */
-  background-color: #EAC1C1;
+  background-color: #FFFFFF;
 
   height: 10%;
 }
@@ -86,7 +81,7 @@ body {
   transform: translate(-50%, -50%)
 }
 
-.comment {
+.comment-block {
   /* DEBUG цвет для наглядности */
   background-color: #BFFC5C;
 
@@ -96,4 +91,20 @@ body {
   float: right;
   width: 80%;
   height: 100%;
+}
+
+.nickname {
+  color: #2C3137;
+}
+
+.separated-date {
+  color: #BEBFC0;
+}
+
+.comment {
+  color: #626A73;
+  padding-top: 2.5%;
+  padding-right: 5%;
+  text-align: justify;
+  overflow: auto;
 }
