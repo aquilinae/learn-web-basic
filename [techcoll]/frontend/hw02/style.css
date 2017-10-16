@@ -5,21 +5,21 @@
 }
 
 html {
-  /* DEBUG цвет для наглядности*/
+  /* DEBUG цвет для наглядности */
   background-color: #FFFFFF;
 
   width: 100%;
 }
 
 body {
-  /* DEBUG цвет для наглядности*/
+  /* DEBUG цвет для наглядности */
   background-color: #000000;
 
   width: 100%;
 }
 
 .wrapper {
-  /* DEBUG цвет для наглядности*/
+  /* DEBUG цвет для наглядности */
   background-color: #FFFF00;
 
   width: 70%;
@@ -42,12 +42,12 @@ body {
 }
 
 .space:nth-child(1) {
-  /* DEBUG цвет для наглядности*/
+  /* DEBUG цвет для наглядности */
   background-color: #929487;
 }
 
 .space:nth-child(1) {
-  /* DEBUG цвет для наглядности*/
+  /* DEBUG цвет для наглядности */
   background-color: #494A43;
 }
 
@@ -61,31 +61,31 @@ body {
 }
 
 .column:nth-child(1) {
-  /* DEBUG цвет для наглядности*/
+  /* DEBUG цвет для наглядности */
   background-color: #DB4545;
 }
 
 .column:nth-child(3) {
-  /* DEBUG цвет для наглядности*/
+  /* DEBUG цвет для наглядности */
   background-color: #7FBFFF;
 }
 
+.menu {
+  /* DEBUG цвет для наглядности */
+  background-color: #EAC1C1;
+
+  height: 10%;
+}
+
 .content {
-  /* DEBUG цвет для наглядности*/
+  /* DEBUG цвет для наглядности */
   background-color: #65CCCC;
 
   height: 90%;
 }
 
-#content01-img {
-  /* DEBUG цвет для наглядности
-  background-color: #FFFCCC;
-
-  height: 90%;*/
-}
-
-#content02-text {
-  /* DEBUG цвет для наглядности*/
+.column:nth-child(3) .content {
+  /* DEBUG цвет для наглядности */
   background-color: #FFFCCC;
 
   height: 90%;
@@ -93,14 +93,42 @@ body {
   text-align: justify;
 }
 
-.menu {
-  /* DEBUG цвет для наглядности*/
-  background-color: #EAC1C1;
-
-  height: 10%;
+.column:nth-child(5) {
+  /* DEBUG цвет для наглядности */
+  background-color: #6B00C7;
 }
 
-.column:nth-child(5) {
-  /* DEBUG цвет для наглядности*/
+.column:nth-child(5) .content {
+  /* DEBUG цвет для наглядности */
   background-color: #6B00C7;
+}
+
+.line {
+  /* DEBUG цвет для наглядности */
+  background-color: #6B0E43;
+
+  width: calc(88%/4);
+  position: relative;
+}
+
+.avatar {
+  /* DEBUG цвет для наглядности */
+  background-color: #CDF123;
+
+  width: 20%;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+}
+
+.comment {
+  /* DEBUG цвет для наглядности */
+  background-color: #123CDF;
+
+  width: 80%;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  float: left;
 }
