@@ -5,16 +5,11 @@
 }
 
 html {
-  /* DEBUG цвет для наглядности */
-  background-color: #FFFFFF;
-
   width: 100%;
 }
 
 body {
-  /* DEBUG цвет для наглядности */
-  background-color: #000000;
-
+  background-color: #DBE2EC;
   width: 100%;
 }
 
@@ -72,7 +67,7 @@ body {
 
 .menu {
   /* DEBUG цвет для наглядности */
-  background-color: #EAC1C1;
+  background-color: #FFFFFF;
 
   height: 10%;
 }
@@ -86,11 +81,17 @@ body {
 
 .column:nth-child(3) .content {
   /* DEBUG цвет для наглядности */
-  background-color: #FFFCCC;
+  background-color: #F6F7F8;
 
   height: 90%;
   padding: 10%;
   text-align: justify;
+}
+
+.column:nth-child(3) .content::first-letter {
+  font-size: 4em;
+  float: left;
+  margin-right: 3%;
 }
 
 .column:nth-child(5) {
