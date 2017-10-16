@@ -5,20 +5,23 @@
 }
 
 html {
-  width: 100%;
-
   /* DEBUG цвет для наглядности*/
   background-color: #FFFFFF;
+
+  width: 100%;
 }
 
 body {
-  width: 100%;
-
   /* DEBUG цвет для наглядности*/
   background-color: #000000;
+
+  width: 100%;
 }
 
 .wrapper {
+  /* DEBUG цвет для наглядности*/
+  background-color: #FFFF00;
+
   width: 70%;
   height: 60%;
 
@@ -27,9 +30,6 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
-  /* DEBUG цвет для наглядности*/
-  background-color: #FFFF00;
 }
 
 .space {
@@ -42,10 +42,12 @@ body {
 }
 
 .space:nth-child(1) {
+  /* DEBUG цвет для наглядности*/
   background-color: #929487;
 }
 
 .space:nth-child(1) {
+  /* DEBUG цвет для наглядности*/
   background-color: #494A43;
 }
 
