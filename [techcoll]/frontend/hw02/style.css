@@ -1,3 +1,8 @@
+@font-face {
+ font-family: Afta; /* Имя шрифта */
+ src: url(fonts/AftaSerifThin-Regular.otf); /* Путь к файлу со шрифтом */
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -118,6 +123,8 @@ body {
   height: 90%;
   padding: 10%;
   text-align: justify;
+  font-family: Afta;
+  line-height: 1.5;
 }
 
 .column:nth-child(3) .content::first-letter {
