@@ -79,6 +79,8 @@ body {
   height: 90%;
 }
 
+/* SECOND COLUMN */
+
 .column:nth-child(3) .content {
   /* DEBUG цвет для наглядности */
   background-color: #F6F7F8;
@@ -94,42 +96,130 @@ body {
   margin-right: 3%;
 }
 
+/* THIRD COLUMN */
+
 .column:nth-child(5) {
   /* DEBUG цвет для наглядности */
   background-color: #6B00C7;
 }
 
+.column:nth-child(5) .menu {
+  /* DEBUG цвет для наглядности */
+  background-color: #FFFFFF;
+
+  height: 10%;
+}
+
+.comment-counter {
+  /* DEBUG цвет для наглядности */
+  background-color: #FFFFAB;
+
+  height: 100%;
+  position: relative;
+
+  /* Что здесь происходит? */
+  /*display: inline-block;
+  position: absolute;
+  left: 35%;
+  transform: translateY(100%);*/
+}
+
+.comment-counter-content {
+  font-size: 1em;
+  font-family: sans-serif;
+
+  /* DEBUG цвет для наглядности */
+  background-color: #CCCCAB;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.button-close {
+  /* DEBUG цвет для наглядности */
+  background-color: #65CAAA;
+
+  position: absolute;
+  left: 80%;
+  top: 0%;
+
+  width: 20%;
+  height: 10%;
+}
+
+.button-close img {
+  width: 40%;
+
+  /* Центровка картинки, подозреваю, что можно проще и изящнее */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
 .column:nth-child(5) .content {
   /* DEBUG цвет для наглядности */
   background-color: #6B00C7;
+
+  height: 90%;
 }
 
 .line {
   /* DEBUG цвет для наглядности */
-  background-color: #6B0E43;
+  background-color: #CCC65C;
 
-  width: calc(88%/4);
-  position: relative;
+  height: calc(100%/4);
+  width: 100%;
 }
 
 .avatar {
   /* DEBUG цвет для наглядности */
-  background-color: #CDF123;
+  background-color: #FFAA5C;
 
-  width: 20%;
   position: relative;
   display: inline-block;
   vertical-align: top;
   float: left;
+  width: 20%;
+  height: 100%;
+}
+
+.avatar img {
+  border-radius: 30px;
+  width: 80%;
+
+  /* Центровка картинки, подозреваю, что можно проще и изящнее */
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.comment-block {
+  /* DEBUG цвет для наглядности */
+  background-color: #BFFC5C;
+
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+  width: 80%;
+  height: 100%;
+}
+
+.nickname {
+  color: #2C3137;
+}
+
+.separated-date {
+  color: #BEBFC0;
 }
 
 .comment {
-  /* DEBUG цвет для наглядности */
-  background-color: #123CDF;
-
-  width: 80%;
-  position: relative;
-  display: inline-block;
-  vertical-align: top;
-  float: left;
+  color: #626A73;
+  padding-top: 2.5%;
+  padding-right: 5%;
+  text-align: justify;
+  overflow: auto;
 }
