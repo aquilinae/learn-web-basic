@@ -70,6 +70,36 @@ body {
   background-color: #FFFFFF;
 
   height: 10%;
+
+  position: relative;
+}
+
+.button-close {
+  /* Positioning */
+  background-color: #CCCCAB;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+
+  /* Decoration */
+  text-decoration:none;
+  text-align:center;
+  border:none;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-weight:bold;
+  color:#000000;
+  background-color: #FFFFFF;
+}
+
+.menu img {
+  width: 10%;
+
+  /* Центровка картинки, подозреваю, что можно проще и изящнее */
+  position: absolute;
+  top: 50%;
+  left: 90%;
+  transform: translate(-50%, -50%)
 }
 
 .content {
@@ -103,7 +133,7 @@ body {
   background-color: #6B00C7;
 }
 
-.column:nth-child(5) .menu {
+.menu-header {
   /* DEBUG цвет для наглядности */
   background-color: #FFFFFF;
 
@@ -136,7 +166,7 @@ body {
   transform: translate(-50%, -50%)
 }
 
-.button-close {
+.cross-close {
   /* DEBUG цвет для наглядности */
   background-color: #65CAAA;
 
@@ -148,7 +178,7 @@ body {
   height: 10%;
 }
 
-.button-close img {
+.cross-close img {
   width: 40%;
 
   /* Центровка картинки, подозреваю, что можно проще и изящнее */
