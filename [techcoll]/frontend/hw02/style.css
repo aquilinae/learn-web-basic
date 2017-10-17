@@ -205,7 +205,7 @@ body {
 
 .comment-counter {
   /* DEBUG цвет для наглядности */
-  background-color: #FFFFAB;
+  background-color: #FFFFFF;
 
   height: 100%;
   position: relative;
@@ -223,7 +223,7 @@ body {
   font-weight:bold;
 
   /* DEBUG цвет для наглядности */
-  background-color: #CCCCAB;
+  background-color: #FFFFFF;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -232,7 +232,7 @@ body {
 
 .cross-close {
   /* DEBUG цвет для наглядности */
-  background-color: #65CAAA;
+  background-color: #FFFFFF;
 
   position: absolute;
   left: 80%;
@@ -254,14 +254,14 @@ body {
 
 .column:nth-child(5) .content {
   /* DEBUG цвет для наглядности */
-  background-color: #6B00C7;
+  background-color: #FFFFFF;
 
   height: 90%;
 }
 
 .line {
   /* DEBUG цвет для наглядности */
-  background-color: #CCC65C;
+  background-color: #FFFFFF;
 
   height: calc(100%/4);
   width: 100%;
@@ -269,7 +269,7 @@ body {
 
 .avatar {
   /* DEBUG цвет для наглядности */
-  background-color: #FFAA5C;
+  background-color: #FFFFFF;
 
   position: relative;
   display: inline-block;
@@ -292,7 +292,7 @@ body {
 
 .comment-block {
   /* DEBUG цвет для наглядности */
-  background-color: #BFFC5C;
+  background-color: #FFFFFF;
 
   position: relative;
   display: inline-block;
