@@ -14,6 +14,14 @@
  font-style: normal;
 }
 
+@font-face {
+ font-family: Vera; /* Имя шрифта */
+ src: url(fonts/Vera-Bold.ttf); /* Путь к файлу со шрифтом */
+
+ font-weight:bold;
+ font-style: normal;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -95,16 +103,16 @@ body {
   background-color: #CCCCAB;
   position: absolute;
   top: 50%;
-  left: 10%;
+  left: 15%;
   transform: translate(-50%, -50%);
 
   /* Decoration */
   text-decoration:none;
   text-align:center;
   border:none;
-  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-family: Vera;
   font-weight:bold;
-  color:#000000;
+  color: #000000;
   background-color: #FFFFFF;
 }
 
@@ -128,6 +136,38 @@ body {
 .column:nth-child(1) .content {
   background-image: url(media/article_back.jpg);
   background-size: 100% 100%;
+}
+
+.container {
+  position: relative;
+  top: 70%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+}
+
+.author {
+  color: #FFFFFF;
+  font-family: Vera;
+  font-weight: normal;
+}
+
+.article-name {
+  color: #FFFFFF;
+  font-family: Vera;
+  font-weight: normal;
+  font-size: 2.5em;
+}
+
+.button-tag {
+  margin-top: 3%;
+  padding: 1%;
+  text-decoration:none;
+  text-align:center;
+  border:none;
+  font-family: Vera;
+  font-weight:bold;
+  color: #000000;
+  background-color: #FFFFFF;
 }
 
 /* SECOND COLUMN */
@@ -178,8 +218,9 @@ body {
 }
 
 .comment-counter-content {
-  font-size: 0.9em;
+  font-size: 0.8em;
   font-family: Vera;
+  font-weight:bold;
 
   /* DEBUG цвет для наглядности */
   background-color: #CCCCAB;
