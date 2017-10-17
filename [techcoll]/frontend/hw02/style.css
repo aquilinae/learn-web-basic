@@ -1,6 +1,17 @@
 @font-face {
  font-family: Afta; /* Имя шрифта */
  src: url(fonts/AftaSerifThin-Regular.otf); /* Путь к файлу со шрифтом */
+
+ font-weight: normal;
+ font-style: normal;
+}
+
+@font-face {
+ font-family: Vera; /* Имя шрифта */
+ src: url(fonts/Vera.ttf); /* Путь к файлу со шрифтом */
+
+ font-weight: normal;
+ font-style: normal;
 }
 
 * {
@@ -114,6 +125,11 @@ body {
   height: 90%;
 }
 
+.column:nth-child(1) .content {
+  background-image: url(media/article_back.jpg);
+  background-size: 100% 100%;
+}
+
 /* SECOND COLUMN */
 
 .column:nth-child(3) .content {
@@ -162,8 +178,8 @@ body {
 }
 
 .comment-counter-content {
-  font-size: 1em;
-  font-family: sans-serif;
+  font-size: 0.9em;
+  font-family: Vera;
 
   /* DEBUG цвет для наглядности */
   background-color: #CCCCAB;
