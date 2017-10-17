@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+}
+
+body {
+  background-color: #DBE2EC;
+  width: 100%;
+}
+
+.wrapper {
+  /* DEBUG цвет для наглядности */
+  background-color: #FFFF00;
+
+  width: 20%;
+  height: 60%;
+
+  /* Центрирование по вертикали и горизонтали */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.column {
+ width: 100%;
+ height: 100%;
+ position: relative;
+ display: inline-block;
+ vertical-align: top;
+ float: left;
+}
+
+.menu {
+  /* DEBUG цвет для наглядности */
+  background-color: #FFFFFF;
+
+  height: 10%;
+}
+
+.comment-counter {
+  /* DEBUG цвет для наглядности */
+  background-color: #FFFFAB;
+
+  height: 100%;
+  position: relative;
+
+  /* Что здесь происходит? */
+  /*display: inline-block;
+  position: absolute;
+  left: 35%;
+  transform: translateY(100%);*/
+}
+
+.comment-counter-content {
+  font-size: 1em;
+  font-family: sans-serif;
+
+  /* DEBUG цвет для наглядности */
+  background-color: #CCCCAB;
+  position: absolute;
+
+}
+
+.button-close {
+  /* DEBUG цвет для наглядности */
+  background-color: #65CAAA;
+
+  position: absolute;
+  left: 80%;
+  top: 0%;
+
+  width: 20%;
+  height: 10%;
+}
+
+.button-close img {
+  width: 40%;
+
+  /* Центровка картинки, подозреваю, что можно проще и изящнее */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.content {
+  /* DEBUG цвет для наглядности */
+  background-color: #65CCCC;
+
+  height: 90%;
+}
