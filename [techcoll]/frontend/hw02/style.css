@@ -38,9 +38,6 @@ body {
 }
 
 .wrapper {
-  /* DEBUG цвет для наглядности */
-  background-color: #FFFF00;
-
   width: 70%;
   height: 60%;
 
@@ -60,16 +57,6 @@ body {
   float: left;
 }
 
-.space:nth-child(1) {
-  /* DEBUG цвет для наглядности */
-  background-color: #929487;
-}
-
-.space:nth-child(1) {
-  /* DEBUG цвет для наглядности */
-  background-color: #494A43;
-}
-
 .column {
  width: calc(82.4%/3);
  height: 100%;
@@ -79,18 +66,7 @@ body {
  float: left;
 }
 
-.column:nth-child(1) {
-  /* DEBUG цвет для наглядности */
-  background-color: #DB4545;
-}
-
-.column:nth-child(3) {
-  /* DEBUG цвет для наглядности */
-  background-color: #7FBFFF;
-}
-
 .menu {
-  /* DEBUG цвет для наглядности */
   background-color: #FFFFFF;
 
   height: 10%;
@@ -127,9 +103,6 @@ body {
 }
 
 .content {
-  /* DEBUG цвет для наглядности */
-  background-color: #65CCCC;
-
   height: 90%;
 }
 
@@ -173,7 +146,6 @@ body {
 /* SECOND COLUMN */
 
 .column:nth-child(3) .content {
-  /* DEBUG цвет для наглядности */
   background-color: #F6F7F8;
 
   height: 90%;
@@ -191,20 +163,13 @@ body {
 
 /* THIRD COLUMN */
 
-.column:nth-child(5) {
-  /* DEBUG цвет для наглядности */
-  background-color: #6B00C7;
-}
-
 .menu-header {
-  /* DEBUG цвет для наглядности */
   background-color: #FFFFFF;
 
   height: 10%;
 }
 
 .comment-counter {
-  /* DEBUG цвет для наглядности */
   background-color: #FFFFFF;
 
   height: 100%;
@@ -222,7 +187,6 @@ body {
   font-family: Vera;
   font-weight:bold;
 
-  /* DEBUG цвет для наглядности */
   background-color: #FFFFFF;
   position: absolute;
   top: 50%;
@@ -231,7 +195,6 @@ body {
 }
 
 .cross-close {
-  /* DEBUG цвет для наглядности */
   background-color: #FFFFFF;
 
   position: absolute;
@@ -253,14 +216,12 @@ body {
 }
 
 .column:nth-child(5) .content {
-  /* DEBUG цвет для наглядности */
   background-color: #FFFFFF;
 
   height: 90%;
 }
 
 .line {
-  /* DEBUG цвет для наглядности */
   background-color: #FFFFFF;
 
   height: calc(100%/4);
@@ -268,7 +229,6 @@ body {
 }
 
 .avatar {
-  /* DEBUG цвет для наглядности */
   background-color: #FFFFFF;
 
   position: relative;
@@ -291,7 +251,6 @@ body {
 }
 
 .comment-block {
-  /* DEBUG цвет для наглядности */
   background-color: #FFFFFF;
 
   position: relative;
